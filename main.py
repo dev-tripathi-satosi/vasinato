@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import json
 import requests
 #from threading import Thread
 app = Flask(__name__)
