@@ -1,0 +1,118 @@
+{% extends "layout.html" %}
+{% block body %}
+
+</div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Vasinato Bot CMD</h1>
+          
+        </div>
+        <div class="col-lg-3 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/static/img/service/bot.jpg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <section id="table">
+    <div>
+<table class="table table-sm table-dark">
+  <thead>
+    <tr>
+      <th scope="col">No•</th>
+      <th scope="col">Name</th>
+      <th scope="col">Work</th>
+      <th scope="col">Syntex</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>announce/announce_e</td>
+      <td>Announcements in any channel using Bot</td>
+      <td>announce channel message</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>ban/kick</td>
+      <td>ban or kick any member</td>
+      <td>ban: /ban (mention)(reason) kick: /kick (mention)(reason)</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>clear</td>
+      <td>Delete Msgs</td>
+      <td>/clear number of msgs</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>SetupRoles/SetupCato
+      SetupChannels</td>
+      <td>To create most common Roles,cato and channels respectively</td>
+      <td>$(cmd Name)</td></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>say/dm</td>
+      <td>To Say anything in any the respective Channel or to dm anyone</td>
+      <td>say:/say msg & dm:/dm member msg</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Avatar</td>
+      <td>To show user's avatar</td>
+      <td>/avatar user:mention</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>SetBadwords</td>
+      <td>Bot'll delete words containing badwords</td>
+      <td>$SetBadwords</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Truth/Dare</td>
+      <td>It'll give you truth Dare</td>
+      <td>$t or $d</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Prize</td>
+      <td>It'll give you a gift </td>
+      <td>$prize</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Create Role/Channel/cato</td>
+      <td>Create Role Channel or Cato</td>
+      <td>/Create (thing to create) (name) (cato to make in:only for channel)</td>
+    </tr>
+    <tr>
+      <th scope="row">11</th>
+      <td>delete role/cato/channel</td>
+      <td>delete any role, channel or cato</td>
+      <td>/delete (role/cato/channel) mention</td>
+    </tr>
+    <tr>
+      <th scope="row">12</th>
+      <td>Add/Remove Role</td>
+      <td>Add or remove a Role from any channel</td>
+      <td>Add:/add user role Remove:/remove user role</td>
+    </tr>
+  <tr>
+      <th scope="row">13</th>
+      <td>Upgrade</td>
+      <td>Send a upgrade request or dismiss the bot</td>
+      <td>/upgrade (bot token) (bot password) (message) </td>
+  </tr>
+  </tbody>
+</table>
+          </div>
+  </section>
+
+{% endblock %}

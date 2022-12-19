@@ -1,0 +1,173 @@
+{% extends "layout.html" %}
+{% block body %}
+
+</div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Vasinato Private Bot</h1>
+          <h2>You need to give us bot token</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Bot</a>
+            <a href="https://youtube.com/channel/UCLT9gKAv6TnXf5F7x9gku9Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>How to get Token</span></a>
+          </div>
+        </div>
+        <div class="col-lg-3 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/static/img/service/bot.jpg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+   <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Bots</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Vasinato is providing Private Discord Bot since 2020 before our website! 
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> • Unique UI</li>
+              <li><i class="ri-check-double-line"></i>• More Features</li>
+              <li><i class="ri-check-double-line"></i>•New Updates every 1 Year</li>
+              <li><i class="ri-check-double-line"></i></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Vasinato Private Bot cost 500 INR and its a one time payment. <a href="/apply/" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>How to Get Bot</span></a>
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Why should I choose Vasinato Bots? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Vasianto provides you Discord bot with a free hosting, custom features, default features inbuild Bot Management.Bots can be customized according to your choice (Use Bot command or Just Email Us). Your Bot will be delivered In a week.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What Kind of Features are there in bots provided by Vasinato? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Vasinato Bots always have Unique features than other Bots in market. Our Bots have some different Moderation Cmds, New Games every Single Year and much more. You will get an example in our server. 
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed"> How can I add/Remove/Upgrade ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  You can add bot by using the bot command Or fill your web form. You can remove Bot by using the Bot's dismiss command. You can upgrade your bot by using the upgrade command. Rest information is been provided in application page.
+                </p>
+              </div>
+            
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+        <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Join Our Discord</h3>
+            
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Join</a>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="/bots/cmds/">See Commands</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Get Bot</h2>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="{{ url_for('load_data') }}" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="dcID">Discord ID</label>
+                  <input type="text" name="DiscordID" class="form-control" id="DiscordID" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="mail">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="token">Bot Token</label>
+                  <input type="text" name="Token" class="form-control" id="Token" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="bstatus">Bot Status</label>
+                <input type="text" class="form-control" name="Status" id="Status" required>
+              </div>
+              <div class="form-group">
+                <label for="comment">Any comment</label>
+                <textarea class="form-control" name="comment" rows="5" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Request</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
+
+{% endblock %}
