@@ -21,11 +21,9 @@ cs50==7.0.2
 cycler==0.10.0
 debugpy==1.2.1
 distlib==0.3.2
-dnspython @ file:///home/runner/.cache/pypoetry/artifacts/e4/2c/43/b3878219f9bcf606c3c3b7cdbff10838f2a3baff67a70af404e835a20d/dnspython-2.2.1-py3-none-any.whl
 docopt==0.6.2
 filelock==3.0.12
 Flask==2.0.1
-Flask-SQLAlchemy @ file:///home/runner/.cache/pypoetry/artifacts/32/be/a1/8f73762066fcb1b4eb7ef71f39a6521d13f0e21f356ffbccd2b986f4fb/Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl
 funcsigs==1.0.2
 future==0.18.2
 gast==0.3.3
