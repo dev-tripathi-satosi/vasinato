@@ -31,7 +31,6 @@ glfw==2.2.0
 google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
-greenlet @ file:///home/runner/.cache/pypoetry/artifacts/b3/f0/eb/79b793c70b50de453930861de26715a48f4f7ff1969adf045ec83a3a8a/greenlet-1.1.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 grpcio==1.40.0
 gunicorn==20.1.0
 h5py==2.10.0
@@ -82,7 +81,6 @@ pyquil==1.9.0
 python-dateutil==2.8.2
 python-jsonrpc-server==0.3.2
 python-language-server==0.31.10
-pyxel @ git+https://github.com/amasad/pyxel@8bcc2266b2fbb65f72ad686952de3838971c136e
 referenceqvm==0.3
 regex==2021.8.28
 replit==3.2.4
@@ -96,11 +94,9 @@ SecretStorage==3.3.1
 shellingham==1.4.0
 six==1.16.0
 sounddevice==0.4.2
-SQLAlchemy @ file:///home/runner/.cache/pypoetry/artifacts/17/24/8c/51f07d29a96b14962e1673aa57a017bbcd73044087293fe4b51f9d2892/SQLAlchemy-1.4.31-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 sqlparse==0.4.2
 tensorboard==2.2.2
 tensorboard-plugin-wit==1.8.0
-tensorflow-cpu @ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.2.0-cp38-cp38-manylinux2010_x86_64.whl
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
 toml==0.10.2
