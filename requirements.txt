@@ -74,7 +74,7 @@ pycparser==2.20
 pyflakes==2.1.1
 pygame==2.0.1
 pylev==1.4.0
-pymongo @ file:///home/runner/.cache/pypoetry/artifacts/4b/d2/40/a0dd81f708eee7916afbec1918d96a5c5d21d54fd62ad93f536e16a7b3/pymongo-4.3.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pymongo==4.3.3
 PyOpenGL==3.1.5
 pyparsing==2.4.7
 pyquil==1.9.0
